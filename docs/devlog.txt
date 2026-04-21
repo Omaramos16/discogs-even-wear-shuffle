@@ -1,0 +1,5 @@
+## 2026-04-20: Project Foundation
+- Initialized repository with MIT license and Android-optimized .gitignore.
+- Defined "Even Wear" and "Culling" logic in the master spec.
+- Secured Discogs API Personal Access Token.
+- Next goal: Write a Python sync engine to pull library data.

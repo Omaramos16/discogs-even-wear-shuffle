@@ -32,3 +32,19 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+
+# Secrets & Config
+.env
+*.token
+auth.json
+
+# Python Sync Script items
+__pycache__/
+venv/
+.venv/
+*.py[cod]
+
+# OS junk
+.DS_Store
+Thumbs.db
