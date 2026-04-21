@@ -1,5 +1,7 @@
-## 2026-04-20: Project Foundation
-- Initialized repository with MIT license and Android-optimized .gitignore.
-- Defined "Even Wear" and "Culling" logic in the master spec.
-- Secured Discogs API Personal Access Token.
-- Next goal: Write a Python sync engine to pull library data.
+** 4/20/26: Project Start
+- Initialized remote repo. MIT license and Android-template .gitignore.
+- Added more to the gitignore, boiler-plate stuff for python/vscode/etc
+- Added short description in repo, longer description in read me
+- Added a beginning docs/ and spec.md for my initial thoughts
+- Got Discogs API personal access token and got the  .env started
+- Next goal: Test out API access with simple python scripts that pulls the data of my library
