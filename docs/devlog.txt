@@ -1,3 +1,11 @@
+** 4/21/26: Playing with Discogs API
+- Set up initial barebones virtual environment for this repo
+- Re-freshed basic REST API knowledge
+- Got communication back from Discogs using my personal token and a small test script
+- Useful resources: 
+    - https://www.discogs.com/developers/
+- AotS: Bon Jovi - Bon Jovi
+
 ** 4/20/26: Project Start
 - Initialized remote repo. MIT license and Android-template .gitignore.
 - Added more to the gitignore, boiler-plate stuff for python/vscode/etc
@@ -5,3 +13,4 @@
 - Added a beginning docs/ and spec.md for my initial thoughts
 - Got Discogs API personal access token and got the  .env started
 - Next goal: Test out API access with simple python scripts that pulls the data of my library
+- Album of the session (AotS??): Megadeth - Youthanasia
