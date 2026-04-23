@@ -1,3 +1,9 @@
+** 4/22/26: Processing the data received from Discogs API
+- Added processor.py to test out processing the data that the API returns
+- Store and print the relevant parts of the data
+- TBD: Get multiple pages of the releases, not just the first one
+- AotS: Björk - Utopia
+
 ** 4/21/26: Playing with Discogs API
 - Set up initial barebones virtual environment for this repo
 - Re-freshed basic REST API knowledge
