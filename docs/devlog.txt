@@ -1,3 +1,9 @@
+** 4/23/26: Params for traversing API pages
+- Added code to traverses the pages that make up a collection using the pagination information
+- Tested and got info back from entire collection
+- Got folder working as a python Project
+- AotS: Eric Clapton - 461 Ocean Boulevard
+
 ** 4/22/26: Processing the data received from Discogs API
 - Added processor.py to test out processing the data that the API returns
 - Store and print the relevant parts of the data

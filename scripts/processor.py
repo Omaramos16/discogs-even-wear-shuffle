@@ -16,7 +16,7 @@ def clean_release_data(raw_releases: List[Dict[str, Any]]) -> List[Dict[str, Any
     """
     Transforms nested Discogs API items into flat list.
     """
-    
+
     return [
         {
             "id": r.get("id"),
@@ -26,16 +26,26 @@ def clean_release_data(raw_releases: List[Dict[str, Any]]) -> List[Dict[str, Any
             "skipped": 0,
             "link": f"https://www.discogs.com/release/{r.get('id')}"
         }
-        for r in raw_releases.get("releases", [])
+        for r in raw_releases
     ]
-    
+
 
 if __name__ == "__main__":
-    output = test_connection()
-    if output:
-        print("Got data back from discogs, now processing it:")
-        cleaned_data = clean_release_data(output)
-        print(json.dumps(cleaned_data, indent = 4))
-    else:
-        print("No data received from discogs, check your connection and credentials.")
-              
+    params = {"per_page": 50, "page": 1}
+    first_page = test_connection(params)
+    if first_page:
+        # Extract the releases list and the total number of pages in this collection
+        all_releases = clean_release_data(first_page.get("releases", []))
+        total_pages = first_page.get("pagination", {}).get("pages", 1)
+
+        for page in range(2, total_pages + 1):
+            print(f"Processing page {page} of {total_pages}...")
+            params["page"] = page
+            page_data = test_connection(params)
+            if page_data:
+                releases_in_page = clean_release_data(
+                    page_data.get("releases", []))
+                all_releases.extend(releases_in_page)
+
+    print(f"Total cleaned releases: {len(all_releases)}")
+    print(json.dumps(all_releases, indent=4))
