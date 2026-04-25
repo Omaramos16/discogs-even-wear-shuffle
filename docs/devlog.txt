@@ -1,3 +1,8 @@
+** 4/24/26: CSV exporting
+- Modified scripts for more re-usability
+- Added simple test to check outputting to a csv file for local testing before bringing in Google Sheets
+- AotS: Herbie Hancock - Head Hunters
+
 ** 4/23/26: Params for traversing API pages
 - Added code to traverses the pages that make up a collection using the pagination information
 - Tested and got info back from entire collection
