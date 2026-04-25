@@ -30,8 +30,7 @@ def clean_release_data(raw_releases: List[Dict[str, Any]]) -> List[Dict[str, Any
     ]
 
 
-if __name__ == "__main__":
-    params = {"per_page": 50, "page": 1}
+def get_all_releases_cleaned(params: Dict[str, int]) -> List[Dict[str, Any]]:
     first_page = test_connection(params)
     if first_page:
         # Extract the releases list and the total number of pages in this collection
@@ -43,9 +42,14 @@ if __name__ == "__main__":
             params["page"] = page
             page_data = test_connection(params)
             if page_data:
-                releases_in_page = clean_release_data(
-                    page_data.get("releases", []))
+                releases_in_page = clean_release_data(page_data.get("releases", []))
                 all_releases.extend(releases_in_page)
 
+    return all_releases
+
+
+if __name__ == "__main__":
+    params = {"per_page": 50, "page": 1}
+    all_releases = get_all_releases_cleaned(params)
     print(f"Total cleaned releases: {len(all_releases)}")
     print(json.dumps(all_releases, indent=4))

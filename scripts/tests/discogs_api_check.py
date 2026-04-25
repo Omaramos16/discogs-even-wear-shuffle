@@ -21,10 +21,7 @@ def test_connection(params: Dict[str, Any] = {}) -> Dict[str, Any]:
         print("Success! Connected to Discogs.")
         data = response.json()
         # print(json.dumps(data, indent=4))
-        print(f"Total Albums found: {data['pagination']['items']}")
-        for release in data['releases'][:5]:
-            print(
-                f"Found: {release['basic_information']['title']} by {release['basic_information']['artists'][0]['name']}")
+        print(f"Total Albums found in page {data['pagination'].get('page', 'N/A')}: {len(data.get('releases', []))}")
         return data
     else:
         print(f"Failed: {response.status_code}")
