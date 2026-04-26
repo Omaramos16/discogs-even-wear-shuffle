@@ -9,7 +9,7 @@ import json
 from dotenv import load_dotenv
 from typing import List, Dict, Any
 
-from scripts.tests.discogs_api_check import test_connection
+from even_wear_shuffle.discogs_api_check import test_connection
 
 
 def clean_release_data(raw_releases: List[Dict[str, Any]]) -> List[Dict[str, Any]]:

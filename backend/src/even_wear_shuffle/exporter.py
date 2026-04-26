@@ -10,8 +10,8 @@ from pathlib import Path
 from typing import Any, Dict
 
 
-from scripts.processor import get_all_releases_cleaned
-from scripts.tests.discogs_api_check import test_connection
+from even_wear_shuffle.processor import get_all_releases_cleaned
+from even_wear_shuffle.discogs_api_check import test_connection
 
 
 def export_to_csv(releases: list[Dict[str, Any]], output_filename: str = "discogs_collection.csv") -> None:

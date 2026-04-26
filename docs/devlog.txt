@@ -1,3 +1,8 @@
+** 4/25/26: toml and monorepo better structure
+- Changed the entire folder structure to start using toml and standard structure now
+- Updated imports and tested everything still works
+- AotS: Joe Bonamassa - Dust Bowl
+
 ** 4/24/26: CSV exporting
 - Modified scripts for more re-usability
 - Added simple test to check outputting to a csv file for local testing before bringing in Google Sheets
