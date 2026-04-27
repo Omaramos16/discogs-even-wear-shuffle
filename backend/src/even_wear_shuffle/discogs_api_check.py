@@ -11,7 +11,7 @@ TOKEN = os.getenv("DISCOGS_TOKEN")
 USERNAME = os.getenv("DISCOGS_USERNAME")
 
 
-def test_connection(params: Dict[str, Any] = {}) -> Dict[str, Any]:
+def test_connection(params: Dict[str, Any] = {'per_page': 50, 'page': 1}) -> Dict[str, Any]:
     url = f"https://api.discogs.com/users/{USERNAME}/collection/folders/0/releases"
     headers = {"Authorization": f"Discogs token={TOKEN}"}
 

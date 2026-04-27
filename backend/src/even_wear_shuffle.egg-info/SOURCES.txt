@@ -1,5 +1,6 @@
 pyproject.toml
 src/even_wear_shuffle/__init__.py
+src/even_wear_shuffle/discogs_api_check.py
 src/even_wear_shuffle/exporter.py
 src/even_wear_shuffle/processor.py
 src/even_wear_shuffle.egg-info/PKG-INFO
@@ -7,3 +8,4 @@ src/even_wear_shuffle.egg-info/SOURCES.txt
 src/even_wear_shuffle.egg-info/dependency_links.txt
 src/even_wear_shuffle.egg-info/requires.txt
 src/even_wear_shuffle.egg-info/top_level.txt
+tests/test_processor.py

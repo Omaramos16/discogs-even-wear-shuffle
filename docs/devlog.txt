@@ -1,3 +1,8 @@
+** 4/26/26: pytest integration
+- learning more about and getting pytest started early on in this small project
+- got mocking data from API response to test
+- AotS: Chris Isaak - Heart Shaped World
+
 ** 4/25/26: toml and monorepo better structure
 - Changed the entire folder structure to start using toml and standard structure now
 - Updated imports and tested everything still works
