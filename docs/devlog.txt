@@ -1,3 +1,10 @@
+** 4/27/26: pytest - testing malformed responses
+- Working on adding edge case unit tests to test with later
+- Added malformed_releases.json response sample with missing/wrong entries 
+- Test ran and failed, as expected!
+- TBD: Go back and fix parser to deal with these edge cases
+- AotS: Mariah Carey - Daydream
+
 ** 4/26/26: pytest integration
 - learning more about and getting pytest started early on in this small project
 - got mocking data from API response to test

@@ -19,7 +19,7 @@ def clean_release_data(raw_releases: List[Dict[str, Any]]) -> List[Dict[str, Any
 
     return [
         {
-            "id": r.get("id"),
+            "id": r.get("id", 0),
             "artist": r.get("basic_information", {}).get("artists", [{}])[0].get("name", "Unknown"),
             "album": r.get("basic_information", {}).get("title", "Unknown"),
             "played": 0,

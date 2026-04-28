@@ -1,0 +1,289 @@
+{
+    "pagination": {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "items": 10,
+        "urls": {
+            "first": "https://api.discogs.com/users/omarramos16/collection/folders/0/releases?page=1&per_page=50&sort=label&sort_order=asc",
+            "prev": "https://api.discogs.com/users/omarramos16/collection/folders/0/releases?page=2&per_page=50&sort=label&sort_order=asc"
+        }
+    },
+    "releases": [
+        {
+            "instance_id": 2131895081,
+            "date_added": "2026-04-05T14:16:10-07:00",
+            "TESTING": "missing id field entirely",
+            "rating": 0,
+            "basic_information": {
+                "id": 14876569,
+                "master_id": 1669934,
+                "master_url": "https://api.discogs.com/masters/1669934",
+                "resource_url": "https://api.discogs.com/releases/14876569",
+                "thumb": "https://i.discogs.com/HjI--MH-_NShDnWQDQJl14q1EB5L6ynjvvD57JBATlY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODc2/NTY5LTE1ODQ1MDQz/NjYtNDYzMi5qcGVn.jpeg",
+                "cover_image": "https://i.discogs.com/MneqFjE-hNamFFVJkC2zRyqU7qxICbcNgog2gDzkXxM/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODc2/NTY5LTE1ODQ1MDQz/NjYtNDYzMi5qcGVn.jpeg",
+                "title": "Circles",
+                "year": 2020,
+                "formats": [
+                    {
+                        "name": "CD",
+                        "qty": "1",
+                        "descriptions": ["Album", "Deluxe Edition"]
+                    }
+                ],
+                "artists": [
+                    {
+                        "name": "Mac Miller",
+                        "anv": "",
+                        "join": "",
+                        "role": "",
+                        "tracks": "",
+                        "id": 2165577,
+                        "resource_url": "https://api.discogs.com/artists/2165577"
+                    }
+                ]
+            },
+            "folder_id": 1
+        },
+        {
+            "id": 13669513,
+            "instance_id": 2124656302,
+            "date_added": "2026-03-15T15:56:36-07:00",
+            "rating": 0,
+            "TESTING": "missing name field in artists",
+            "basic_information": {
+                "id": 13669513,
+                "master_id": 303567,
+                "master_url": "https://api.discogs.com/masters/303567",
+                "resource_url": "https://api.discogs.com/releases/13669513",
+                "thumb": "https://i.discogs.com/fWJ5xHucSlD5BrcrpwAbqRttGud6IAV2_eCbWn4Bjro/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjY5/NTEzLTE2NzUwNzg1/MjMtNzg1OC5qcGVn.jpeg",
+                "cover_image": "https://i.discogs.com/i-mJTCauFNimISjtoreHOasuo2SGlBUk1lyHscqlYHU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjY5/NTEzLTE2NzUwNzg1/MjMtNzg1OC5qcGVn.jpeg",
+                "title": "21",
+                "year": 2011,
+                "formats": [
+                    {
+                        "name": "CD",
+                        "qty": "1",
+                        "descriptions": ["Album"]
+                    }
+                ],
+
+                "artists": [
+                    {
+                        "anv": "",
+                        "join": "",
+                        "role": "",
+                        "tracks": "",
+                        "id": 819015,
+                        "resource_url": "https://api.discogs.com/artists/819015"
+                    }
+                ]
+            },
+            "folder_id": 1
+        },
+        {
+            "id": 7714672,
+            "instance_id": 2131894933,
+            "date_added": "2026-04-05T14:15:41-07:00",
+            "rating": 0,
+            "TESTING": "missing title field entirely",
+            "basic_information": {
+                "id": 7714672,
+                "master_id": 912912,
+                "master_url": "https://api.discogs.com/masters/912912",
+                "resource_url": "https://api.discogs.com/releases/7714672",
+                "thumb": "https://i.discogs.com/1pky9WJMw2ngpeMVchk6oYnQp4QVa42mYuFsPpObVcc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "cover_image": "https://i.discogs.com/Ly4q964uiZu8pYeKZRH4gLj83Ep3vTCtHu8r9Ka4L9k/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "year": 2015,
+                "formats": [
+                    {
+                        "name": "CD",
+                        "qty": "1",
+                        "descriptions": ["Album", "Stereo"]
+                    }
+                ],
+                "artists": [
+                    {
+                        "name": "Adele (3)",
+                        "anv": "",
+                        "join": "",
+                        "role": "",
+                        "tracks": "",
+                        "id": 819015,
+                        "resource_url": "https://api.discogs.com/artists/819015"
+                    }
+                ]
+            },
+            "folder_id": 1
+        },
+        {
+            "id": 13669513,
+            "instance_id": 2124656302,
+            "date_added": "2026-03-15T15:56:36-07:00",
+            "rating": 0,
+            "TESTING": "missing entire basic information key",
+            "folder_id": 1
+        },
+        {
+            "id": 13669513,
+            "instance_id": 2124656302,
+            "date_added": "2026-03-15T15:56:36-07:00",
+            "rating": 0,
+            "TESTING": "missing entire basic information content",
+            "basic_information": {},
+            "folder_id": 1
+        },
+        {
+            "id": 13669513,
+            "instance_id": 2124656302,
+            "date_added": "2026-03-15T15:56:36-07:00",
+            "rating": 0,
+            "TESTING": "setting basic_information to null",
+            "basic_information": null,
+            "folder_id": 1
+        },
+        {
+            "id": 7714672,
+            "instance_id": 2131894933,
+            "date_added": "2026-04-05T14:15:41-07:00",
+            "rating": 0,
+            "title": "25",
+            "TESTING": "missing artists content entirely",
+            "basic_information": {
+                "id": 7714672,
+                "master_id": 912912,
+                "master_url": "https://api.discogs.com/masters/912912",
+                "resource_url": "https://api.discogs.com/releases/7714672",
+                "thumb": "https://i.discogs.com/1pky9WJMw2ngpeMVchk6oYnQp4QVa42mYuFsPpObVcc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "cover_image": "https://i.discogs.com/Ly4q964uiZu8pYeKZRH4gLj83Ep3vTCtHu8r9Ka4L9k/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "year": 2015,
+                "formats": [
+                    {
+                        "name": "CD",
+                        "qty": "1",
+                        "descriptions": ["Album", "Stereo"]
+                    }
+                ],
+                "artists": []
+            },
+            "folder_id": 1
+        },
+        {
+            "id": 7714672,
+            "instance_id": 2131894933,
+            "date_added": "2026-04-05T14:15:41-07:00",
+            "rating": 0,
+            "TESTING": "multiple artists",
+            "basic_information": {
+                "id": 7714672,
+                "master_id": 912912,
+                "master_url": "https://api.discogs.com/masters/912912",
+                "resource_url": "https://api.discogs.com/releases/7714672",
+                "thumb": "https://i.discogs.com/1pky9WJMw2ngpeMVchk6oYnQp4QVa42mYuFsPpObVcc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "cover_image": "https://i.discogs.com/Ly4q964uiZu8pYeKZRH4gLj83Ep3vTCtHu8r9Ka4L9k/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "title": "25",
+                "year": 2015,
+                "formats": [
+                    {
+                        "name": "CD",
+                        "qty": "1",
+                        "descriptions": ["Album", "Stereo"]
+                    }
+                ],
+                "artists": [
+                    {
+                        "name": "Adele (3)",
+                        "anv": "",
+                        "join": "",
+                        "role": "",
+                        "tracks": "",
+                        "id": 819015,
+                        "resource_url": "https://api.discogs.com/artists/819015"
+                    },
+                    {
+                        "name": "Eleda (2)",
+                        "anv": "",
+                        "join": "",
+                        "role": "",
+                        "tracks": "",
+                        "id": 819015,
+                        "resource_url": "https://api.discogs.com/artists/819015"
+                    }
+                ]
+            },
+            "folder_id": 1
+        },
+        {
+            "id": 7714672,
+            "instance_id": 2131894933,
+            "date_added": "2026-04-05T14:15:41-07:00",
+            "rating": 0,
+            "TESTING": "Empty title",
+            "basic_information": {
+                "id": 7714672,
+                "master_id": 912912,
+                "master_url": "https://api.discogs.com/masters/912912",
+                "resource_url": "https://api.discogs.com/releases/7714672",
+                "thumb": "https://i.discogs.com/1pky9WJMw2ngpeMVchk6oYnQp4QVa42mYuFsPpObVcc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "cover_image": "https://i.discogs.com/Ly4q964uiZu8pYeKZRH4gLj83Ep3vTCtHu8r9Ka4L9k/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "title": "",
+                "year": 2015,
+                "formats": [
+                    {
+                        "name": "CD",
+                        "qty": "1",
+                        "descriptions": ["Album", "Stereo"]
+                    }
+                ],
+                "artists": [
+                    {
+                        "name": "Adele (3)",
+                        "anv": "",
+                        "join": "",
+                        "role": "",
+                        "tracks": "",
+                        "id": 819015,
+                        "resource_url": "https://api.discogs.com/artists/819015"
+                    }
+                ]
+            },
+            "folder_id": 1
+        },
+        {
+            "id": "7714672",
+            "instance_id": 2131894933,
+            "date_added": "2026-04-05T14:15:41-07:00",
+            "rating": 0,
+            "TESTING": "id as a string instead of an int",
+            "basic_information": {
+                "id": 7714672,
+                "master_id": 912912,
+                "master_url": "https://api.discogs.com/masters/912912",
+                "resource_url": "https://api.discogs.com/releases/7714672",
+                "thumb": "https://i.discogs.com/1pky9WJMw2ngpeMVchk6oYnQp4QVa42mYuFsPpObVcc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "cover_image": "https://i.discogs.com/Ly4q964uiZu8pYeKZRH4gLj83Ep3vTCtHu8r9Ka4L9k/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3MTQ2/NzItMTQ0ODk0MDkz/MS0yMTQzLmpwZWc.jpeg",
+                "title": "25",
+                "year": 2015,
+                "formats": [
+                    {
+                        "name": "CD",
+                        "qty": "1",
+                        "descriptions": ["Album", "Stereo"]
+                    }
+                ],
+                "artists": [
+                    {
+                        "name": "Adele (3)",
+                        "anv": "",
+                        "join": "",
+                        "role": "",
+                        "tracks": "",
+                        "id": 819015,
+                        "resource_url": "https://api.discogs.com/artists/819015"
+                    }
+                ]
+            },
+            "folder_id": 1
+        }
+    ]
+}
