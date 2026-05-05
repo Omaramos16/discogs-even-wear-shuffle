@@ -13,10 +13,44 @@
         {
             "instance_id": 2131895081,
             "date_added": "2026-04-05T14:16:10-07:00",
-            "TESTING": "missing id field entirely",
+            "TESTING": "missing id field but have it in basic information",
             "rating": 0,
             "basic_information": {
                 "id": 14876569,
+                "master_id": 1669934,
+                "master_url": "https://api.discogs.com/masters/1669934",
+                "resource_url": "https://api.discogs.com/releases/14876569",
+                "thumb": "https://i.discogs.com/HjI--MH-_NShDnWQDQJl14q1EB5L6ynjvvD57JBATlY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODc2/NTY5LTE1ODQ1MDQz/NjYtNDYzMi5qcGVn.jpeg",
+                "cover_image": "https://i.discogs.com/MneqFjE-hNamFFVJkC2zRyqU7qxICbcNgog2gDzkXxM/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODc2/NTY5LTE1ODQ1MDQz/NjYtNDYzMi5qcGVn.jpeg",
+                "title": "Circles",
+                "year": 2020,
+                "formats": [
+                    {
+                        "name": "CD",
+                        "qty": "1",
+                        "descriptions": ["Album", "Deluxe Edition"]
+                    }
+                ],
+                "artists": [
+                    {
+                        "name": "Mac Miller",
+                        "anv": "",
+                        "join": "",
+                        "role": "",
+                        "tracks": "",
+                        "id": 2165577,
+                        "resource_url": "https://api.discogs.com/artists/2165577"
+                    }
+                ]
+            },
+            "folder_id": 1
+        },
+        {
+            "instance_id": 2131895081,
+            "date_added": "2026-04-05T14:16:10-07:00",
+            "TESTING": "missing id field entirely (not even in basic information)",
+            "rating": 0,
+            "basic_information": {
                 "master_id": 1669934,
                 "master_url": "https://api.discogs.com/masters/1669934",
                 "resource_url": "https://api.discogs.com/releases/14876569",

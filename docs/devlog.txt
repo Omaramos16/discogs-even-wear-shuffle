@@ -1,3 +1,9 @@
+** 5/4/26: pytest - finished testing malformed responses
+- Test Driven Development :D 
+- Made parsing data function more robust to pass all tests
+- Added 11 specific edge-case tests (missing IDs, empty titles, null fields) to verify robustness
+- AotS: Sade - Promise
+
 ** 4/27/26: pytest - testing malformed responses
 - Working on adding edge case unit tests to test with later
 - Added malformed_releases.json response sample with missing/wrong entries 

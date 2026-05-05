@@ -17,17 +17,41 @@ def clean_release_data(raw_releases: List[Dict[str, Any]]) -> List[Dict[str, Any
     Transforms nested Discogs API items into flat list.
     """
 
-    return [
-        {
-            "id": r.get("id", 0),
-            "artist": r.get("basic_information", {}).get("artists", [{}])[0].get("name", "Unknown"),
-            "album": r.get("basic_information", {}).get("title", "Unknown"),
-            "played": 0,
-            "skipped": 0,
-            "link": f"https://www.discogs.com/release/{r.get('id')}"
-        }
-        for r in raw_releases
-    ]
+    cleaned_data: List[Dict[str, Any]] = []
+    for release in raw_releases:
+        if release is not None and isinstance(release, dict):
+            cleaned_item = {}
+
+            # Set defaults and fetch key values with error handling
+            song_id = release.get("id", 0)
+            basic_info = release.get("basic_information", {}) or {}  # Handle case where basic_information is None
+            artist_name = "Unknown"
+            album_title = "Unknown"
+
+            # Most of the information is in the basic_information key
+            if basic_info:
+                album_title = basic_info.get("title", "Unknown")
+
+                if song_id == 0:  # If id is missing at the top level, try to get it from basic_information
+                    song_id = basic_info.get("id", 0)
+
+                artists = basic_info.get("artists", [])
+                if isinstance(artists, list) and artists:
+                    artist_name = artists[0].get("name", "Unknown")  # List under the first artist
+                else:
+                    artist_name = "Unknown"
+
+            cleaned_item = {
+                "id": song_id,
+                "artist": artist_name,
+                "album": album_title,
+                "played": 0,
+                "skipped": 0,
+                "link": f"https://www.discogs.com/release/{song_id}"
+            }
+            cleaned_data.append(cleaned_item)
+
+    return cleaned_data
 
 
 def get_all_releases_cleaned(params: Dict[str, int]) -> List[Dict[str, Any]]:
