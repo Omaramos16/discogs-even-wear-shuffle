@@ -1,3 +1,8 @@
+** 5/6/26: backend 
+- looked into backend google cloud services for data (at least temporarily)
+- got credentials set up and added to gitignore
+- AotS: Sanguisugabogg - Hideous Aftermath
+
 ** 5/4/26: pytest - finished testing malformed responses
 - Test Driven Development :D 
 - Made parsing data function more robust to pass all tests
